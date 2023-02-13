@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -43,7 +43,8 @@
           "name": "ParallaxProviderWrapper",
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
@@ -62,12 +63,13 @@
           "name": "Reveal",
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
       "projectApiToken": "0du4Nw8XACLdHQzuAUeIOEnjBxzB03Gs3dOSgvFXobsGR0FNEpVxoPdLy3wNBgBg6FiZnnZBpXg68t3Kcig",
-      "projectName": "Copy of nft-deep-wire",
+      "projectName": "barcelona",
       "version": "latest",
       "cssFilePath": "plasmic/copy_of_nft_deep_wire/plasmic_copy_of_nft_deep_wire.module.css",
       "components": [

@@ -77,13 +77,14 @@
   color: var(--token-TBj8XjsOdmX68o);
   font-size: 24px;
   padding-left: 30px;
+  padding-right: 30px;
 }
 .connect:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
   height: 34px;
   margin-left: 30px;
-  width: 77px;
+  width: 135px;
   margin-right: 14px;
   flex-shrink: 0;
 }
