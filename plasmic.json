@@ -181,19 +181,6 @@
           "componentType": "component"
         },
         {
-          "id": "s5gea_spR-HZ-T",
-          "name": "About",
-          "type": "managed",
-          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
-          "renderModuleFilePath": "plasmic/copy_of_nft_deep_wire/PlasmicAbout.tsx",
-          "importSpec": {
-            "modulePath": "../pages/about.tsx"
-          },
-          "cssFilePath": "plasmic/copy_of_nft_deep_wire/PlasmicAbout.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "A76YuAnBPnNbw1",
           "name": "Vision",
           "type": "managed",
@@ -307,6 +294,19 @@
             "modulePath": "../pages/under-the-watchful-eye.tsx"
           },
           "cssFilePath": "plasmic/barcelona/PlasmicUnderTheWatchfulEye.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "_CFEjPTng4w",
+          "name": "PressRelease",
+          "type": "managed",
+          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
+          "renderModuleFilePath": "plasmic/barcelona/PlasmicPressRelease.tsx",
+          "importSpec": {
+            "modulePath": "../pages/press-release.tsx"
+          },
+          "cssFilePath": "plasmic/barcelona/PlasmicPressRelease.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }

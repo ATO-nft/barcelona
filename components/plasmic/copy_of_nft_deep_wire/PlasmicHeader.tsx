@@ -142,7 +142,6 @@ function PlasmicHeader__RenderFunc(props: {
               <p.PlasmicLink
                 className={classNames(projectcss.all, projectcss.a, projectcss.__wab_text, sty.link__bdEM)}
                 component={Link}
-                href={`/about`}
                 platform={'nextjs'}>
                 {'About'}
               </p.PlasmicLink>
