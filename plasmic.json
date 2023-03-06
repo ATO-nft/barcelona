@@ -231,6 +231,19 @@
           "cssFilePath": "plasmic/copy_of_nft_deep_wire/PlasmicFooter.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "gm2WwyNce5_",
+          "name": "GuillaumeEtLaurie",
+          "type": "managed",
+          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
+          "renderModuleFilePath": "plasmic/barcelona/PlasmicGuillaumeEtLaurie.tsx",
+          "importSpec": {
+            "modulePath": "../pages/guillaume-et-laurie.tsx"
+          },
+          "cssFilePath": "plasmic/barcelona/PlasmicGuillaumeEtLaurie.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -310,6 +323,16 @@
           "id": "vjhiA3t8Gb1JB5",
           "name": "pièce 2 galerie arte mejor.jpg",
           "filePath": "../public/plasmic/copy_of_nft_deep_wire/images/piece2GalerieArteMejorjpg.jpeg"
+        },
+        {
+          "id": "npVMsMizG",
+          "name": "carbon (5).png",
+          "filePath": "../public/plasmic/barcelona/images/carbon5Png.png"
+        },
+        {
+          "id": "MODEIeXei",
+          "name": "dombes-tree.jpg",
+          "filePath": "../public/plasmic/barcelona/images/dombesTreejpg.jpeg"
         }
       ],
       "indirect": false,
@@ -342,6 +365,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.211",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.211/dist/plasmic.schema.json"
+  "cliVersion": "0.1.214",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.214/dist/plasmic.schema.json"
 }

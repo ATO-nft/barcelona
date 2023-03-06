@@ -14,6 +14,7 @@ import * as React from 'react'
 
 import Head from 'next/head'
 import Link, { LinkProps } from 'next/link'
+import { useRouter } from 'next/router'
 
 import * as p from '@plasmicapp/react-web'
 import * as ph from '@plasmicapp/host'
@@ -69,6 +70,13 @@ const __wrapUserPromise =
     return await promise
   })
 
+function useNextRouter() {
+  try {
+    return useRouter()
+  } catch {}
+  return undefined
+}
+
 function PlasmicHomepage__RenderFunc(props: {
   variants: PlasmicHomepage__VariantsArgs
   args: PlasmicHomepage__ArgsType
@@ -77,6 +85,7 @@ function PlasmicHomepage__RenderFunc(props: {
   forNode?: string
 }) {
   const { variants, overrides, forNode } = props
+  const __nextRouter = useNextRouter()
 
   const $ctx = ph.useDataEnv?.() || {}
   const args = React.useMemo(() => Object.assign({}, props.args), [props.args])
@@ -89,7 +98,6 @@ function PlasmicHomepage__RenderFunc(props: {
   const $refs = refsRef.current
 
   const currentUser = p.useCurrentUser?.() || {}
-
   const [$queries, setDollarQueries] = React.useState({})
 
   const globalVariants = ensureGlobalVariants({
@@ -223,6 +231,36 @@ function PlasmicHomepage__RenderFunc(props: {
                         src: '/plasmic/copy_of_nft_deep_wire/images/allegoryOfAgoraphobiajpg.jpeg',
                         fullWidth: 6030,
                         fullHeight: 3930,
+                        aspectRatio: undefined,
+                      }}
+                    />
+                  </Reveal>
+                </p.PlasmicLink>
+
+                <p.PlasmicLink
+                  className={classNames(projectcss.all, projectcss.a, sty.link__mMpGn)}
+                  component={Link}
+                  href={`/guillaume-et-laurie`}
+                  platform={'nextjs'}>
+                  <Reveal
+                    className={classNames('__wab_instance', sty.reveal__jhrwz)}
+                    delay={500 as const}
+                    duration={1500 as const}
+                    triggerOnce={true}>
+                    <p.PlasmicImg
+                      alt={'' as const}
+                      className={classNames(sty.img__p135N)}
+                      displayHeight={'180px' as const}
+                      displayMaxHeight={'none' as const}
+                      displayMaxWidth={'none' as const}
+                      displayMinHeight={'0' as const}
+                      displayMinWidth={'0' as const}
+                      displayWidth={'100%' as const}
+                      loading={'lazy' as const}
+                      src={{
+                        src: '/plasmic/copy_of_nft_deep_wire/images/yakamoIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
+                        fullWidth: 3508,
+                        fullHeight: 4961,
                         aspectRatio: undefined,
                       }}
                     />

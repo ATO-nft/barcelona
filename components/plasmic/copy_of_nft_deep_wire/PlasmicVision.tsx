@@ -14,6 +14,7 @@ import * as React from 'react'
 
 import Head from 'next/head'
 import Link, { LinkProps } from 'next/link'
+import { useRouter } from 'next/router'
 
 import * as p from '@plasmicapp/react-web'
 import * as ph from '@plasmicapp/host'
@@ -68,6 +69,13 @@ const __wrapUserPromise =
     return await promise
   })
 
+function useNextRouter() {
+  try {
+    return useRouter()
+  } catch {}
+  return undefined
+}
+
 function PlasmicVision__RenderFunc(props: {
   variants: PlasmicVision__VariantsArgs
   args: PlasmicVision__ArgsType
@@ -76,6 +84,7 @@ function PlasmicVision__RenderFunc(props: {
   forNode?: string
 }) {
   const { variants, overrides, forNode } = props
+  const __nextRouter = useNextRouter()
 
   const $ctx = ph.useDataEnv?.() || {}
   const args = React.useMemo(() => Object.assign({}, props.args), [props.args])
@@ -88,7 +97,6 @@ function PlasmicVision__RenderFunc(props: {
   const $refs = refsRef.current
 
   const currentUser = p.useCurrentUser?.() || {}
-
   const [$queries, setDollarQueries] = React.useState({})
 
   const globalVariants = ensureGlobalVariants({
@@ -163,7 +171,7 @@ function PlasmicVision__RenderFunc(props: {
                 data-plasmic-override={overrides.h5}
                 className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5)}>
                 {
-                  'Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. \n\nOur vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. \n\nOur vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. \n\nOur vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. \n\nOur vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. \n\nOur vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. Our vision is clear and simple: art is life. '
+                  "At NFTDeepWire, we envision a future where the digital art market is accessible and transparent, allowing creators to fully realize the value of their work. Our curated marketplace brings together a wealth of experience from the traditional art world, as well as a commitment to excellence in the selection of artists and artwork.\n\nWe believe that every creator deserves the highest level of protection for their intellectual property, which is why we use smart contracts with the best IP protection. This ensures that artists can confidently showcase and sell their work without worrying about piracy or unauthorized use.\n\nOur marketplace is more than just a platform for buying and selling digital art - it's a community of artists, collectors, and enthusiasts who share a passion for creativity and innovation. We are committed to fostering a space that encourages collaboration, exploration, and growth.\n\nAt NFTDeepWire, we believe that the digital art market has the potential to revolutionize the way we think about art, and we are dedicated to being at the forefront of this exciting new movement. With our commitment to quality, transparency, and innovation, we are confident that we can help shape a brighter future for digital art and its creators."
                 }
               </h5>
             </div>

@@ -27,7 +27,9 @@ export function Web3Provider(props: Props) {
 
   return (
     <WagmiConfig client={client}>
-      <ConnectKitProvider mode={colorMode}>{props.children}</ConnectKitProvider>
+      <ConnectKitProvider mode={colorMode} theme="midnight">
+        {props.children}
+      </ConnectKitProvider>
     </WagmiConfig>
   )
 }

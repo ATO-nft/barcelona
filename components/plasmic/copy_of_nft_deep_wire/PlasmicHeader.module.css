@@ -53,7 +53,6 @@
   .freeBox__acZQq {
     display: flex;
     flex-direction: column;
-    flex-column-gap: 0px;
   }
 }
 .link__bdEM {
@@ -70,6 +69,12 @@
   color: var(--token-TBj8XjsOdmX68o);
   font-size: 24px;
   padding-left: 30px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .link___53UeM {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 .link__zKovz {
   width: auto;
