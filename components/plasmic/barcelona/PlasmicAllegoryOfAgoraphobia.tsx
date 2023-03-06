@@ -39,26 +39,26 @@ import Header from '../../Header' // plasmic-import: TDk-aeZzGqhn4i/component
 import { Reveal } from '@plasmicpkgs/react-awesome-reveal' // plasmic-import: R6s1FdhksG/codeComponent
 import BidButton from '../../BidButton' // plasmic-import: Msgi2616lMUHq/component
 
-import { useScreenVariants as useScreenVariantspMm3HmCzTEcO } from './PlasmicGlobalVariant__Screen' // plasmic-import: pMm3HmCz_TEcO_/globalVariant
+import { useScreenVariants as useScreenVariantspMm3HmCzTEcO } from '../copy_of_nft_deep_wire/PlasmicGlobalVariant__Screen' // plasmic-import: pMm3HmCz_TEcO_/globalVariant
 
 import '@plasmicapp/react-web/lib/plasmic.css'
 
-import projectcss from './plasmic_copy_of_nft_deep_wire.module.css' // plasmic-import: b9eDNiZEPvCSqD2WYWQrPJ/projectcss
-import sty from './PlasmicNft.module.css' // plasmic-import: nbN1KsOlICFjnr/css
+import projectcss from '../copy_of_nft_deep_wire/plasmic_copy_of_nft_deep_wire.module.css' // plasmic-import: b9eDNiZEPvCSqD2WYWQrPJ/projectcss
+import sty from './PlasmicAllegoryOfAgoraphobia.module.css' // plasmic-import: nbN1KsOlICFjnr/css
 
-import ChecksvgIcon from './icons/PlasmicIcon__Checksvg' // plasmic-import: mVkzgIShYP1SI2/icon
-import IconIcon from './icons/PlasmicIcon__Icon' // plasmic-import: pJBbZv2T8YqeGM/icon
+import ChecksvgIcon from '../copy_of_nft_deep_wire/icons/PlasmicIcon__Checksvg' // plasmic-import: mVkzgIShYP1SI2/icon
+import IconIcon from '../copy_of_nft_deep_wire/icons/PlasmicIcon__Icon' // plasmic-import: pJBbZv2T8YqeGM/icon
 
-export type PlasmicNft__VariantMembers = {}
-export type PlasmicNft__VariantsArgs = {}
-type VariantPropType = keyof PlasmicNft__VariantsArgs
-export const PlasmicNft__VariantProps = new Array<VariantPropType>()
+export type PlasmicAllegoryOfAgoraphobia__VariantMembers = {}
+export type PlasmicAllegoryOfAgoraphobia__VariantsArgs = {}
+type VariantPropType = keyof PlasmicAllegoryOfAgoraphobia__VariantsArgs
+export const PlasmicAllegoryOfAgoraphobia__VariantProps = new Array<VariantPropType>()
 
-export type PlasmicNft__ArgsType = {}
-type ArgPropType = keyof PlasmicNft__ArgsType
-export const PlasmicNft__ArgProps = new Array<ArgPropType>()
+export type PlasmicAllegoryOfAgoraphobia__ArgsType = {}
+type ArgPropType = keyof PlasmicAllegoryOfAgoraphobia__ArgsType
+export const PlasmicAllegoryOfAgoraphobia__ArgProps = new Array<ArgPropType>()
 
-export type PlasmicNft__OverridesType = {
+export type PlasmicAllegoryOfAgoraphobia__OverridesType = {
   root?: p.Flex<'div'>
   header?: p.Flex<typeof Header>
   h2?: p.Flex<'h2'>
@@ -73,7 +73,7 @@ export type PlasmicNft__OverridesType = {
   footer?: p.Flex<'div'>
 }
 
-export interface DefaultNftProps {}
+export interface DefaultAllegoryOfAgoraphobiaProps {}
 
 const __wrapUserFunction = globalThis.__PlasmicWrapUserFunction ?? ((loc, fn) => fn())
 const __wrapUserPromise =
@@ -89,10 +89,10 @@ function useNextRouter() {
   return undefined
 }
 
-function PlasmicNft__RenderFunc(props: {
-  variants: PlasmicNft__VariantsArgs
-  args: PlasmicNft__ArgsType
-  overrides: PlasmicNft__OverridesType
+function PlasmicAllegoryOfAgoraphobia__RenderFunc(props: {
+  variants: PlasmicAllegoryOfAgoraphobia__VariantsArgs
+  args: PlasmicAllegoryOfAgoraphobia__ArgsType
+  overrides: PlasmicAllegoryOfAgoraphobia__OverridesType
 
   forNode?: string
 }) {
@@ -120,14 +120,14 @@ function PlasmicNft__RenderFunc(props: {
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary_large_image" />
-        <title key="title">{PlasmicNft.pageMetadata.title}</title>
-        <meta key="og:title" property="og:title" content={PlasmicNft.pageMetadata.title} />
-        <meta key="twitter:title" name="twitter:title" content={PlasmicNft.pageMetadata.title} />
-        <meta key="description" name="description" content={PlasmicNft.pageMetadata.description} />
-        <meta key="og:description" property="og:description" content={PlasmicNft.pageMetadata.description} />
-        <meta key="twitter:description" name="twitter:description" content={PlasmicNft.pageMetadata.description} />
-        <meta key="og:image" property="og:image" content={PlasmicNft.pageMetadata.ogImageSrc} />
-        <meta key="twitter:image" name="twitter:image" content={PlasmicNft.pageMetadata.ogImageSrc} />
+        <title key="title">{PlasmicAllegoryOfAgoraphobia.pageMetadata.title}</title>
+        <meta key="og:title" property="og:title" content={PlasmicAllegoryOfAgoraphobia.pageMetadata.title} />
+        <meta key="twitter:title" name="twitter:title" content={PlasmicAllegoryOfAgoraphobia.pageMetadata.title} />
+        <meta key="description" name="description" content={PlasmicAllegoryOfAgoraphobia.pageMetadata.description} />
+        <meta key="og:description" property="og:description" content={PlasmicAllegoryOfAgoraphobia.pageMetadata.description} />
+        <meta key="twitter:description" name="twitter:description" content={PlasmicAllegoryOfAgoraphobia.pageMetadata.description} />
+        <meta key="og:image" property="og:image" content={PlasmicAllegoryOfAgoraphobia.pageMetadata.ogImageSrc} />
+        <meta key="twitter:image" name="twitter:image" content={PlasmicAllegoryOfAgoraphobia.pageMetadata.ogImageSrc} />
       </Head>
 
       <style>{`
@@ -315,9 +315,9 @@ function PlasmicNft__RenderFunc(props: {
           ) : null}
           {true ? (
             <div data-plasmic-name={'price'} data-plasmic-override={overrides.price} className={classNames(projectcss.all, sty.price)}>
-              <div className={classNames(projectcss.all, projectcss.__wab_text, sty.text__rhzoE)}>{'0.042 ETH'}</div>
+              <div className={classNames(projectcss.all, projectcss.__wab_text, sty.text__rhzoE)}>{'45 000 €'}</div>
 
-              <div className={classNames(projectcss.all, projectcss.__wab_text, sty.text__uP0Po)}>{'(≈ 53 €)'}</div>
+              {true ? <div className={classNames(projectcss.all, projectcss.__wab_text, sty.text__uP0Po)}>{'(≈ 53 €)'}</div> : null}
             </div>
           ) : null}
           {(hasVariant(globalVariants, 'screen', 'mobileOnly') ? true : true) ? (
@@ -351,7 +351,7 @@ function PlasmicNft__RenderFunc(props: {
                   }
                   <React.Fragment>{''}</React.Fragment>
                   <span className={'plasmic_default__all plasmic_default__span'} style={{ color: '#FBF0F0' }}>
-                    {' / 150'}
+                    {' / 1'}
                   </span>
                 </React.Fragment>
               </h5>
@@ -438,15 +438,15 @@ type NodeDefaultElementType = {
 }
 
 type ReservedPropsType = 'variants' | 'args' | 'overrides'
-type NodeOverridesType<T extends NodeNameType> = Pick<PlasmicNft__OverridesType, DescendantsType<T>>
+type NodeOverridesType<T extends NodeNameType> = Pick<PlasmicAllegoryOfAgoraphobia__OverridesType, DescendantsType<T>>
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {
-    variants?: PlasmicNft__VariantsArgs
-    args?: PlasmicNft__ArgsType
+    variants?: PlasmicAllegoryOfAgoraphobia__VariantsArgs
+    args?: PlasmicAllegoryOfAgoraphobia__ArgsType
     overrides?: NodeOverridesType<T>
-  } & Omit<PlasmicNft__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
-    /* Specify args directly as props*/ Omit<PlasmicNft__ArgsType, ReservedPropsType> &
+  } & Omit<PlasmicAllegoryOfAgoraphobia__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
+    /* Specify args directly as props*/ Omit<PlasmicAllegoryOfAgoraphobia__ArgsType, ReservedPropsType> &
     /* Specify overrides for each element directly as props*/ Omit<NodeOverridesType<T>, ReservedPropsType | VariantPropType | ArgPropType> &
     /* Specify props for the root element*/ Omit<
       Partial<React.ComponentProps<NodeDefaultElementType[T]>>,
@@ -461,13 +461,13 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         deriveRenderOpts(props, {
           name: nodeName,
           descendantNames: [...PlasmicDescendants[nodeName]],
-          internalArgPropNames: PlasmicNft__ArgProps,
-          internalVariantPropNames: PlasmicNft__VariantProps,
+          internalArgPropNames: PlasmicAllegoryOfAgoraphobia__ArgProps,
+          internalVariantPropNames: PlasmicAllegoryOfAgoraphobia__VariantProps,
         }),
       [props, nodeName]
     )
 
-    return PlasmicNft__RenderFunc({
+    return PlasmicAllegoryOfAgoraphobia__RenderFunc({
       variants,
       args,
       overrides,
@@ -475,15 +475,15 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
     })
   }
   if (nodeName === 'root') {
-    func.displayName = 'PlasmicNft'
+    func.displayName = 'PlasmicAllegoryOfAgoraphobia'
   } else {
-    func.displayName = `PlasmicNft.${nodeName}`
+    func.displayName = `PlasmicAllegoryOfAgoraphobia.${nodeName}`
   }
   return func
 }
 
-export const PlasmicNft = Object.assign(
-  // Top-level PlasmicNft renders the root element
+export const PlasmicAllegoryOfAgoraphobia = Object.assign(
+  // Top-level PlasmicAllegoryOfAgoraphobia renders the root element
   makeNodeComponent('root'),
   {
     // Helper components rendering sub-elements
@@ -499,9 +499,9 @@ export const PlasmicNft = Object.assign(
     loader: makeNodeComponent('loader'),
     footer: makeNodeComponent('footer'),
 
-    // Metadata about props expected for PlasmicNft
-    internalVariantProps: PlasmicNft__VariantProps,
-    internalArgProps: PlasmicNft__ArgProps,
+    // Metadata about props expected for PlasmicAllegoryOfAgoraphobia
+    internalVariantProps: PlasmicAllegoryOfAgoraphobia__VariantProps,
+    internalArgProps: PlasmicAllegoryOfAgoraphobia__ArgProps,
 
     // Page metadata
     pageMetadata: {
@@ -513,5 +513,5 @@ export const PlasmicNft = Object.assign(
   }
 )
 
-export default PlasmicNft
+export default PlasmicAllegoryOfAgoraphobia
 /* prettier-ignore-end */

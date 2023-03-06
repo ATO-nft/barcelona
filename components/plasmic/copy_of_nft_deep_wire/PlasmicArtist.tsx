@@ -152,7 +152,11 @@ function PlasmicArtist__RenderFunc(props: {
                 )}
               </h2>
 
-              <p.PlasmicLink className={classNames(projectcss.all, projectcss.a, sty.link__z4ALi)} component={Link} href={`/nft`} platform={'nextjs'}>
+              <p.PlasmicLink
+                className={classNames(projectcss.all, projectcss.a, sty.link__z4ALi)}
+                component={Link}
+                href={`/allegory-of-agoraphobia`}
+                platform={'nextjs'}>
                 <p.PlasmicImg
                   data-plasmic-name={'img'}
                   data-plasmic-override={overrides.img}

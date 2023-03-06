@@ -120,7 +120,7 @@
   font-size: 64px;
   font-weight: 700;
   min-width: 0;
-  padding: 66px 10px 52px;
+  padding: 136px 10px 52px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text {
@@ -172,6 +172,7 @@
   object-fit: cover;
   width: 100%;
   height: 180px;
+  margin-bottom: 30px;
   border-radius: 18px;
 }
 .img__gYEv > picture > img {
@@ -196,6 +197,7 @@
   object-fit: cover;
   width: 100%;
   height: 180px;
+  margin-bottom: 30px;
   border-radius: 18px;
 }
 .img__p135N > picture > img {

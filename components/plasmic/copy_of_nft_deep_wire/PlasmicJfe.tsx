@@ -57,7 +57,6 @@ export type PlasmicJfe__OverridesType = {
   root?: p.Flex<'div'>
   header?: p.Flex<typeof Header>
   h4?: p.Flex<'h4'>
-  h5?: p.Flex<'h5'>
   footer?: p.Flex<'div'>
 }
 
@@ -142,7 +141,7 @@ function PlasmicJfe__RenderFunc(props: {
                   {hasVariant(globalVariants, 'screen', 'mobileOnly') ? (
                     <React.Fragment>
                       <span className={'plasmic_default__all plasmic_default__span'} style={{ color: '#FFFFFF' }}>
-                        {'Artworks'}
+                        {'Jesus Fernandez Escobar'}
                       </span>
                     </React.Fragment>
                   ) : (
@@ -155,7 +154,11 @@ function PlasmicJfe__RenderFunc(props: {
                 </h2>
               ) : null}
 
-              <p.PlasmicLink className={classNames(projectcss.all, projectcss.a, sty.link__gYg87)} component={Link} href={`/nft`} platform={'nextjs'}>
+              <p.PlasmicLink
+                className={classNames(projectcss.all, projectcss.a, sty.link__gYg87)}
+                component={Link}
+                href={`/allegory-of-agoraphobia`}
+                platform={'nextjs'}>
                 {true ? (
                   <div className={classNames(projectcss.all, sty.freeBox__lVxVu)}>
                     {(hasVariant(globalVariants, 'screen', 'mobileOnly') ? true : true) ? (
@@ -169,7 +172,7 @@ function PlasmicJfe__RenderFunc(props: {
                         ) : (
                           <React.Fragment>
                             <span className={'plasmic_default__all plasmic_default__span'} style={{ color: '#FFFFFF' }}>
-                              {'Artworks'}
+                              {'Jesus Fernandez Escobar'}
                             </span>
                           </React.Fragment>
                         )}
@@ -209,20 +212,11 @@ function PlasmicJfe__RenderFunc(props: {
                 </React.Fragment>
               </h4>
 
-              <h5
-                data-plasmic-name={'h5'}
-                data-plasmic-override={overrides.h5}
-                className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5)}>
-                {
-                  'There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. '
-                }
-              </h5>
-
               <div className={classNames(projectcss.all, sty.freeBox__b593I)}>
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__rzNd)}
                   component={Link}
-                  href={`/nft`}
+                  href={`/allegory-of-agoraphobia`}
                   platform={'nextjs'}>
                   <p.PlasmicImg
                     alt={'' as const}
@@ -246,7 +240,7 @@ function PlasmicJfe__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__znTwJ)}
                   component={Link}
-                  href={`/nft`}
+                  href={`/counting-the-days`}
                   platform={'nextjs'}>
                   <p.PlasmicImg
                     alt={'' as const}
@@ -270,179 +264,11 @@ function PlasmicJfe__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__j0SDo)}
                   component={Link}
-                  href={`/nft`}
+                  href={`/under-the-watchful-eye`}
                   platform={'nextjs'}>
                   <p.PlasmicImg
                     alt={'' as const}
                     className={classNames(sty.img___6Btlk)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/underTheWatchfulEyejpg.jpeg',
-                      fullWidth: 5080,
-                      fullHeight: 3798,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__iuotI)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__xcyfD)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/underTheWatchfulEyejpg.jpeg',
-                      fullWidth: 5080,
-                      fullHeight: 3798,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__tFk8U)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__csGvu)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/underTheWatchfulEyejpg.jpeg',
-                      fullWidth: 5080,
-                      fullHeight: 3798,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__mgbwb)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__sagxl)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/underTheWatchfulEyejpg.jpeg',
-                      fullWidth: 5080,
-                      fullHeight: 3798,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__s3X6)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__baHcl)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/underTheWatchfulEyejpg.jpeg',
-                      fullWidth: 5080,
-                      fullHeight: 3798,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__oAdLc)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img___9EvWs)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/underTheWatchfulEyejpg.jpeg',
-                      fullWidth: 5080,
-                      fullHeight: 3798,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__krlG1)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__o8CAh)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/underTheWatchfulEyejpg.jpeg',
-                      fullWidth: 5080,
-                      fullHeight: 3798,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__zpORd)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__bX8Zc)}
                     displayHeight={'180px' as const}
                     displayMaxHeight={'none' as const}
                     displayMaxWidth={'none' as const}
@@ -502,10 +328,9 @@ function PlasmicJfe__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ['root', 'header', 'h4', 'h5', 'footer'],
+  root: ['root', 'header', 'h4', 'footer'],
   header: ['header'],
   h4: ['h4'],
-  h5: ['h5'],
   footer: ['footer'],
 } as const
 type NodeNameType = keyof typeof PlasmicDescendants
@@ -514,7 +339,6 @@ type NodeDefaultElementType = {
   root: 'div'
   header: typeof Header
   h4: 'h4'
-  h5: 'h5'
   footer: 'div'
 }
 
@@ -570,7 +394,6 @@ export const PlasmicJfe = Object.assign(
     // Helper components rendering sub-elements
     header: makeNodeComponent('header'),
     h4: makeNodeComponent('h4'),
-    h5: makeNodeComponent('h5'),
     footer: makeNodeComponent('footer'),
 
     // Metadata about props expected for PlasmicJfe

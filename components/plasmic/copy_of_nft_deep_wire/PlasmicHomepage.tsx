@@ -244,7 +244,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   platform={'nextjs'}>
                   <Reveal
                     className={classNames('__wab_instance', sty.reveal__jhrwz)}
-                    delay={500 as const}
+                    delay={700 as const}
                     duration={1500 as const}
                     triggerOnce={true}>
                     <p.PlasmicImg
@@ -272,7 +272,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   component={Link}
                   href={`/shades`}
                   platform={'nextjs'}>
-                  <Reveal className={classNames('__wab_instance', sty.reveal__qAfW)} delay={600 as const} duration={1500 as const} triggerOnce={true}>
+                  <Reveal className={classNames('__wab_instance', sty.reveal__qAfW)} delay={900 as const} duration={1500 as const} triggerOnce={true}>
                     <p.PlasmicImg
                       alt={'' as const}
                       className={classNames(sty.img__ji6X0)}

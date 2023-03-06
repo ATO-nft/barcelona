@@ -142,19 +142,6 @@
           "plumeType": "text-input"
         },
         {
-          "id": "nbN1KsOlICFjnr",
-          "name": "Nft",
-          "type": "managed",
-          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
-          "renderModuleFilePath": "plasmic/copy_of_nft_deep_wire/PlasmicNft.tsx",
-          "importSpec": {
-            "modulePath": "../pages/nft.tsx"
-          },
-          "cssFilePath": "plasmic/copy_of_nft_deep_wire/PlasmicNft.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "I_K72AJTn1AqKG",
           "name": "Shades",
           "type": "managed",
@@ -242,6 +229,84 @@
             "modulePath": "../pages/guillaume-et-laurie.tsx"
           },
           "cssFilePath": "plasmic/barcelona/PlasmicGuillaumeEtLaurie.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "hwoYsaIzXe8",
+          "name": "YakamocolorI",
+          "type": "managed",
+          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
+          "renderModuleFilePath": "plasmic/barcelona/PlasmicYakamocolorI.tsx",
+          "importSpec": {
+            "modulePath": "../pages/yakamocolor-I.tsx"
+          },
+          "cssFilePath": "plasmic/barcelona/PlasmicYakamocolorI.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "nUsdpJpVMTs",
+          "name": "YakamoI",
+          "type": "managed",
+          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
+          "renderModuleFilePath": "plasmic/barcelona/PlasmicYakamoI.tsx",
+          "importSpec": {
+            "modulePath": "../pages/yakamo-I.tsx"
+          },
+          "cssFilePath": "plasmic/barcelona/PlasmicYakamoI.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "nbN1KsOlICFjnr",
+          "name": "AllegoryOfAgoraphobia",
+          "type": "managed",
+          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
+          "renderModuleFilePath": "plasmic/barcelona/PlasmicAllegoryOfAgoraphobia.tsx",
+          "importSpec": {
+            "modulePath": "../pages/allegory-of-agoraphobia.tsx"
+          },
+          "cssFilePath": "plasmic/barcelona/PlasmicAllegoryOfAgoraphobia.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "_dWxgLopYCd",
+          "name": "ViolaGrappe",
+          "type": "managed",
+          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
+          "renderModuleFilePath": "plasmic/barcelona/PlasmicViolaGrappe.tsx",
+          "importSpec": {
+            "modulePath": "../pages/viola-grappe.tsx"
+          },
+          "cssFilePath": "plasmic/barcelona/PlasmicViolaGrappe.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "YQCnuODUVIX",
+          "name": "CountingTheDays",
+          "type": "managed",
+          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
+          "renderModuleFilePath": "plasmic/barcelona/PlasmicCountingTheDays.tsx",
+          "importSpec": {
+            "modulePath": "../pages/counting-the-days.tsx"
+          },
+          "cssFilePath": "plasmic/barcelona/PlasmicCountingTheDays.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "uAr1Xy8mWfn",
+          "name": "UnderTheWatchfulEye",
+          "type": "managed",
+          "projectId": "b9eDNiZEPvCSqD2WYWQrPJ",
+          "renderModuleFilePath": "plasmic/barcelona/PlasmicUnderTheWatchfulEye.tsx",
+          "importSpec": {
+            "modulePath": "../pages/under-the-watchful-eye.tsx"
+          },
+          "cssFilePath": "plasmic/barcelona/PlasmicUnderTheWatchfulEye.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
@@ -333,6 +398,26 @@
           "id": "MODEIeXei",
           "name": "dombes-tree.jpg",
           "filePath": "../public/plasmic/barcelona/images/dombesTreejpg.jpeg"
+        },
+        {
+          "id": "GleagwYXg",
+          "name": "Rosso Red x mapeinturePro.com.png",
+          "filePath": "../public/plasmic/barcelona/images/rossoRedXMapeintureProcompng.png"
+        },
+        {
+          "id": "3AuCo4olT",
+          "name": "Color Black Ink x mapeinturePro.com.png",
+          "filePath": "../public/plasmic/barcelona/images/colorBlackInkXMapeintureProcompng.png"
+        },
+        {
+          "id": "wGxo_tCSi",
+          "name": "Giallo Lemon x mapeinturePro.com.png",
+          "filePath": "../public/plasmic/barcelona/images/gialloLemonXMapeintureProcompng.png"
+        },
+        {
+          "id": "e9fshWCOY",
+          "name": "Arancia Mecanic x mapeinturePro.com.png",
+          "filePath": "../public/plasmic/barcelona/images/aranciaMecanicXMapeintureProcompng.png"
         }
       ],
       "indirect": false,

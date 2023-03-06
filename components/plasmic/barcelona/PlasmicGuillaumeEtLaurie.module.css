@@ -106,6 +106,9 @@
     display: none;
   }
 }
+.link__o7Xva {
+  display: flex;
+}
 .img__xuSOh {
   object-fit: cover;
   max-width: 100%;
@@ -142,6 +145,12 @@
     align-self: center;
     text-align: center;
   }
+}
+.link__mVqN0 {
+  color: var(--token-9-DmyP7AzZvmlp);
+}
+.link__lQymp {
+  color: var(--token-9-DmyP7AzZvmlp);
 }
 .freeBox__xPUs {
   display: grid;

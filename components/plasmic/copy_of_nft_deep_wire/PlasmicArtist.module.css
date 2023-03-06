@@ -111,7 +111,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .h5___86SfW {
     align-self: center;
-    text-align: center;
+    text-align: justify;
   }
 }
 .text__cej38 {
@@ -120,6 +120,11 @@
   font-size: 50px;
   padding-bottom: 50px;
   font-weight: 700;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__cej38 {
+    padding-bottom: 30px;
+  }
 }
 .h5__vheI {
   position: relative;
@@ -136,7 +141,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .h5__vheI {
     align-self: center;
-    text-align: center;
+    text-align: left;
   }
 }
 .text__bcKbb {
@@ -145,6 +150,11 @@
   font-size: 50px;
   padding-bottom: 50px;
   font-weight: 700;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__bcKbb {
+    padding-bottom: 30px;
+  }
 }
 .text__hb7Zc {
   position: relative;
@@ -164,7 +174,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .h5___9Npvn {
     align-self: center;
-    text-align: center;
+    text-align: left;
   }
 }
 .text__pYfHi {
@@ -173,6 +183,11 @@
   font-size: 50px;
   padding-bottom: 50px;
   font-weight: 700;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__pYfHi {
+    padding-bottom: 30px;
+  }
 }
 .h5__os6Mf {
   position: relative;
@@ -189,7 +204,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .h5__os6Mf {
     align-self: center;
-    text-align: center;
+    text-align: left;
   }
 }
 .footer {

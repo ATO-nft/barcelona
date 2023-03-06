@@ -58,7 +58,6 @@ export type PlasmicShades__OverridesType = {
   header?: p.Flex<typeof Header>
   h2?: p.Flex<'h2'>
   h4?: p.Flex<'h4'>
-  h5?: p.Flex<'h5'>
   footer?: p.Flex<'div'>
 }
 
@@ -138,7 +137,11 @@ function PlasmicShades__RenderFunc(props: {
 
           {(hasVariant(globalVariants, 'screen', 'mobileOnly') ? true : true) ? (
             <div className={classNames(projectcss.all, sty.freeBox__g4Usz)}>
-              <p.PlasmicLink className={classNames(projectcss.all, projectcss.a, sty.link__ihc2P)} component={Link} href={`/nft`} platform={'nextjs'}>
+              <p.PlasmicLink
+                className={classNames(projectcss.all, projectcss.a, sty.link__ihc2P)}
+                component={Link}
+                href={`/allegory-of-agoraphobia`}
+                platform={'nextjs'}>
                 {true ? (
                   <div className={classNames(projectcss.all, sty.freeBox__flpSj)}>
                     {(hasVariant(globalVariants, 'screen', 'mobileOnly') ? true : true) ? (
@@ -149,36 +152,42 @@ function PlasmicShades__RenderFunc(props: {
                         {hasVariant(globalVariants, 'screen', 'mobileOnly') ? (
                           <React.Fragment>
                             <span className={'plasmic_default__all plasmic_default__span'} style={{ color: '#FFFFFF' }}>
-                              {'Artworks'}
+                              {'Shades'}
                             </span>
                           </React.Fragment>
                         ) : (
                           <React.Fragment>
                             <span className={'plasmic_default__all plasmic_default__span'} style={{ color: '#FFFFFF' }}>
-                              {'Artworks'}
+                              {'Shades'}
                             </span>
                           </React.Fragment>
                         )}
                       </h2>
                     ) : null}
 
-                    <p.PlasmicImg
-                      alt={''}
-                      className={classNames(sty.img__paykk)}
-                      displayHeight={'802px' as const}
-                      displayMaxHeight={'none' as const}
-                      displayMaxWidth={'100%' as const}
-                      displayMinHeight={'0' as const}
-                      displayMinWidth={'0' as const}
-                      displayWidth={'auto' as const}
-                      loading={'lazy' as const}
-                      src={{
-                        src: '/plasmic/copy_of_nft_deep_wire/images/violaGrappeXMapeintureProcompng.png',
-                        fullWidth: 1059,
-                        fullHeight: 389,
-                        aspectRatio: undefined,
-                      }}
-                    />
+                    <p.PlasmicLink
+                      className={classNames(projectcss.all, projectcss.a, sty.link__o97Qh)}
+                      component={Link}
+                      href={`/viola-grappe`}
+                      platform={'nextjs'}>
+                      <p.PlasmicImg
+                        alt={''}
+                        className={classNames(sty.img__paykk)}
+                        displayHeight={'802px' as const}
+                        displayMaxHeight={'none' as const}
+                        displayMaxWidth={'100%' as const}
+                        displayMinHeight={'0' as const}
+                        displayMinWidth={'0' as const}
+                        displayWidth={'auto' as const}
+                        loading={'lazy' as const}
+                        src={{
+                          src: '/plasmic/copy_of_nft_deep_wire/images/violaGrappeXMapeintureProcompng.png',
+                          fullWidth: 1059,
+                          fullHeight: 389,
+                          aspectRatio: undefined,
+                        }}
+                      />
+                    </p.PlasmicLink>
                   </div>
                 ) : null}
               </p.PlasmicLink>
@@ -187,23 +196,27 @@ function PlasmicShades__RenderFunc(props: {
                 data-plasmic-name={'h4'}
                 data-plasmic-override={overrides.h4}
                 className={classNames(projectcss.all, projectcss.h4, projectcss.__wab_text, sty.h4)}>
-                {'by Guillaume and Laurie'}
+                <React.Fragment>
+                  <React.Fragment>{'by '}</React.Fragment>
+                  {
+                    <p.PlasmicLink
+                      className={classNames(projectcss.all, projectcss.a, projectcss.__wab_text, projectcss.plasmic_default__inline, sty.link__j3SsC)}
+                      component={Link}
+                      href={'https://mapeinturepro.com/' as const}
+                      platform={'nextjs'}
+                      target={'_blank' as const}>
+                      {'Mapeinturepro.com'}
+                    </p.PlasmicLink>
+                  }
+                  <React.Fragment>{''}</React.Fragment>
+                </React.Fragment>
               </h4>
-
-              <h5
-                data-plasmic-name={'h5'}
-                data-plasmic-override={overrides.h5}
-                className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5)}>
-                {
-                  'There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. '
-                }
-              </h5>
 
               <div className={classNames(projectcss.all, sty.freeBox__ugbH)}>
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__uAdjz)}
                   component={Link}
-                  href={`/nft`}
+                  href={`/viola-grappe`}
                   platform={'nextjs'}>
                   <p.PlasmicImg
                     alt={'' as const}
@@ -227,7 +240,7 @@ function PlasmicShades__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__sqUUp)}
                   component={Link}
-                  href={`/nft`}
+                  href={`/shades`}
                   platform={'nextjs'}>
                   <p.PlasmicImg
                     alt={'' as const}
@@ -240,9 +253,9 @@ function PlasmicShades__RenderFunc(props: {
                     displayWidth={'100%' as const}
                     loading={'lazy' as const}
                     src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamoIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
+                      src: '/plasmic/barcelona/images/rossoRedXMapeintureProcompng.png',
+                      fullWidth: 1051,
+                      fullHeight: 368,
                       aspectRatio: undefined,
                     }}
                   />
@@ -251,7 +264,7 @@ function PlasmicShades__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__ec3Eq)}
                   component={Link}
-                  href={`/nft`}
+                  href={`/shades`}
                   platform={'nextjs'}>
                   <p.PlasmicImg
                     alt={'' as const}
@@ -264,9 +277,9 @@ function PlasmicShades__RenderFunc(props: {
                     displayWidth={'100%' as const}
                     loading={'lazy' as const}
                     src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
+                      src: '/plasmic/barcelona/images/colorBlackInkXMapeintureProcompng.png',
+                      fullWidth: 991,
+                      fullHeight: 361,
                       aspectRatio: undefined,
                     }}
                   />
@@ -275,7 +288,7 @@ function PlasmicShades__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__zGoZ0)}
                   component={Link}
-                  href={`/nft`}
+                  href={`/shades`}
                   platform={'nextjs'}>
                   <p.PlasmicImg
                     alt={'' as const}
@@ -288,9 +301,9 @@ function PlasmicShades__RenderFunc(props: {
                     displayWidth={'100%' as const}
                     loading={'lazy' as const}
                     src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
+                      src: '/plasmic/barcelona/images/gialloLemonXMapeintureProcompng.png',
+                      fullWidth: 1012,
+                      fullHeight: 376,
                       aspectRatio: undefined,
                     }}
                   />
@@ -299,7 +312,7 @@ function PlasmicShades__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link___8PsLm)}
                   component={Link}
-                  href={`/nft`}
+                  href={`/shades`}
                   platform={'nextjs'}>
                   <p.PlasmicImg
                     alt={'' as const}
@@ -312,129 +325,9 @@ function PlasmicShades__RenderFunc(props: {
                     displayWidth={'100%' as const}
                     loading={'lazy' as const}
                     src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__qB945)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__fkaEb)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__uXuPv)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__h8K7I)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__fWk5T)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img___9ZW1D)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__fhZgt)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__diIib)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
-                      aspectRatio: undefined,
-                    }}
-                  />
-                </p.PlasmicLink>
-
-                <p.PlasmicLink
-                  className={classNames(projectcss.all, projectcss.a, sty.link__y2ThU)}
-                  component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
-                  <p.PlasmicImg
-                    alt={'' as const}
-                    className={classNames(sty.img__yHat)}
-                    displayHeight={'180px' as const}
-                    displayMaxHeight={'none' as const}
-                    displayMaxWidth={'none' as const}
-                    displayMinHeight={'0' as const}
-                    displayMinWidth={'0' as const}
-                    displayWidth={'100%' as const}
-                    loading={'lazy' as const}
-                    src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                      fullWidth: 3508,
-                      fullHeight: 4961,
+                      src: '/plasmic/barcelona/images/aranciaMecanicXMapeintureProcompng.png',
+                      fullWidth: 1018,
+                      fullHeight: 375,
                       aspectRatio: undefined,
                     }}
                   />
@@ -460,7 +353,7 @@ function PlasmicShades__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, projectcss.__wab_text, sty.link__i2D01)}
                   component={Link}
-                  href={`/`}
+                  href={`/vision`}
                   platform={'nextjs'}>
                   {'Terms & conditions'}
                 </p.PlasmicLink>
@@ -483,11 +376,10 @@ function PlasmicShades__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ['root', 'header', 'h2', 'h4', 'h5', 'footer'],
+  root: ['root', 'header', 'h2', 'h4', 'footer'],
   header: ['header'],
   h2: ['h2'],
   h4: ['h4'],
-  h5: ['h5'],
   footer: ['footer'],
 } as const
 type NodeNameType = keyof typeof PlasmicDescendants
@@ -497,7 +389,6 @@ type NodeDefaultElementType = {
   header: typeof Header
   h2: 'h2'
   h4: 'h4'
-  h5: 'h5'
   footer: 'div'
 }
 
@@ -554,7 +445,6 @@ export const PlasmicShades = Object.assign(
     header: makeNodeComponent('header'),
     h2: makeNodeComponent('h2'),
     h4: makeNodeComponent('h4'),
-    h5: makeNodeComponent('h5'),
     footer: makeNodeComponent('footer'),
 
     // Metadata about props expected for PlasmicShades

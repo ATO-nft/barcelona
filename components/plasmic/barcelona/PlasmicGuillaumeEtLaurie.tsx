@@ -155,7 +155,11 @@ function PlasmicGuillaumeEtLaurie__RenderFunc(props: {
                 </h2>
               ) : null}
 
-              <p.PlasmicLink className={classNames(projectcss.all, projectcss.a, sty.link__xgZFr)} component={Link} href={`/nft`} platform={'nextjs'}>
+              <p.PlasmicLink
+                className={classNames(projectcss.all, projectcss.a, sty.link__xgZFr)}
+                component={Link}
+                href={`/allegory-of-agoraphobia`}
+                platform={'nextjs'}>
                 {true ? (
                   <div className={classNames(projectcss.all, sty.freeBox__iVzEy)}>
                     {(hasVariant(globalVariants, 'screen', 'mobileOnly') ? true : true) ? (
@@ -176,23 +180,29 @@ function PlasmicGuillaumeEtLaurie__RenderFunc(props: {
                       </h2>
                     ) : null}
 
-                    <p.PlasmicImg
-                      alt={''}
-                      className={classNames(sty.img__xuSOh)}
-                      displayHeight={'auto' as const}
-                      displayMaxHeight={'none' as const}
-                      displayMaxWidth={'100%' as const}
-                      displayMinHeight={'0' as const}
-                      displayMinWidth={'0' as const}
-                      displayWidth={'auto' as const}
-                      loading={'lazy' as const}
-                      src={{
-                        src: '/plasmic/copy_of_nft_deep_wire/images/yakamoIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
-                        fullWidth: 3508,
-                        fullHeight: 4961,
-                        aspectRatio: undefined,
-                      }}
-                    />
+                    <p.PlasmicLink
+                      className={classNames(projectcss.all, projectcss.a, sty.link__o7Xva)}
+                      component={Link}
+                      href={`/yakamocolor-I`}
+                      platform={'nextjs'}>
+                      <p.PlasmicImg
+                        alt={''}
+                        className={classNames(sty.img__xuSOh)}
+                        displayHeight={'auto' as const}
+                        displayMaxHeight={'none' as const}
+                        displayMaxWidth={'100%' as const}
+                        displayMinHeight={'0' as const}
+                        displayMinWidth={'0' as const}
+                        displayWidth={'auto' as const}
+                        loading={'lazy' as const}
+                        src={{
+                          src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
+                          fullWidth: 3508,
+                          fullHeight: 4961,
+                          aspectRatio: undefined,
+                        }}
+                      />
+                    </p.PlasmicLink>
                   </div>
                 ) : null}
               </p.PlasmicLink>
@@ -208,17 +218,38 @@ function PlasmicGuillaumeEtLaurie__RenderFunc(props: {
                 data-plasmic-name={'h5'}
                 data-plasmic-override={overrides.h5}
                 className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5)}>
-                {
-                  'There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. There will always be some text here. '
-                }
+                <React.Fragment>
+                  <React.Fragment>{'A collab between '}</React.Fragment>
+                  {
+                    <p.PlasmicLink
+                      className={classNames(projectcss.all, projectcss.a, projectcss.__wab_text, projectcss.plasmic_default__inline, sty.link__mVqN0)}
+                      component={Link}
+                      href={'https://www.guillaumelaurie.com/' as const}
+                      platform={'nextjs'}>
+                      {'Guillaume & Laurie'}
+                    </p.PlasmicLink>
+                  }
+                  <React.Fragment>{' and '}</React.Fragment>
+                  {
+                    <p.PlasmicLink
+                      className={classNames(projectcss.all, projectcss.a, projectcss.__wab_text, projectcss.plasmic_default__inline, sty.link__lQymp)}
+                      component={Link}
+                      href={'https://mapeinturepro.com/' as const}
+                      platform={'nextjs'}>
+                      {'MaPeinturePro.com'}
+                    </p.PlasmicLink>
+                  }
+                  <React.Fragment>{'.'}</React.Fragment>
+                </React.Fragment>
               </h5>
 
               <div className={classNames(projectcss.all, sty.freeBox__xPUs)}>
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__v58Em)}
                   component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
+                  href={`/yakamocolor-I`}
+                  platform={'nextjs'}
+                  target={undefined}>
                   <p.PlasmicImg
                     alt={'' as const}
                     className={classNames(sty.img__rOqJq)}
@@ -230,7 +261,7 @@ function PlasmicGuillaumeEtLaurie__RenderFunc(props: {
                     displayWidth={'100%' as const}
                     loading={'lazy' as const}
                     src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamoIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
+                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
                       fullWidth: 3508,
                       fullHeight: 4961,
                       aspectRatio: undefined,
@@ -241,8 +272,9 @@ function PlasmicGuillaumeEtLaurie__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__ttJNr)}
                   component={Link}
-                  href={`/nft`}
-                  platform={'nextjs'}>
+                  href={`/yakamo-I`}
+                  platform={'nextjs'}
+                  target={undefined}>
                   <p.PlasmicImg
                     alt={'' as const}
                     className={classNames(sty.img__dqmHh)}
@@ -254,7 +286,7 @@ function PlasmicGuillaumeEtLaurie__RenderFunc(props: {
                     displayWidth={'100%' as const}
                     loading={'lazy' as const}
                     src={{
-                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamocolorIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
+                      src: '/plasmic/copy_of_nft_deep_wire/images/yakamoIByGuillaumeEtLaurieXMaPeinturePro2022V02Jpg.jpeg',
                       fullWidth: 3508,
                       fullHeight: 4961,
                       aspectRatio: undefined,
@@ -282,7 +314,7 @@ function PlasmicGuillaumeEtLaurie__RenderFunc(props: {
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, projectcss.__wab_text, sty.link__jzy0I)}
                   component={Link}
-                  href={`/`}
+                  href={`/vision`}
                   platform={'nextjs'}>
                   {'Terms & conditions'}
                 </p.PlasmicLink>

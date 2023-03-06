@@ -123,7 +123,7 @@ function PlasmicFooter__RenderFunc(props: {
             component={Link}
             platform={'nextjs'}>
             {hasVariant(globalVariants, 'screen', 'mobileOnly')
-              ? 'NFT Deep Wire\nAll rights reserved © 2022'
+              ? 'NFT Deep Wire\nAll rights reserved © 2023'
               : 'NFT Deep Wire | All rights reserved © 2022'}
           </p.PlasmicLink>
         </div>
@@ -133,7 +133,7 @@ function PlasmicFooter__RenderFunc(props: {
             <p.PlasmicLink
               className={classNames(projectcss.all, projectcss.a, projectcss.__wab_text, sty.link__y2CEd)}
               component={Link}
-              href={`/`}
+              href={hasVariant(globalVariants, 'screen', 'mobileOnly') ? `/vision` : `/`}
               platform={'nextjs'}>
               {'Terms & conditions'}
             </p.PlasmicLink>
