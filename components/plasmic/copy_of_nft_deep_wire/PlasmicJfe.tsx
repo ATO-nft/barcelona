@@ -57,6 +57,7 @@ export type PlasmicJfe__OverridesType = {
   root?: p.Flex<'div'>
   header?: p.Flex<typeof Header>
   h4?: p.Flex<'h4'>
+  h5?: p.Flex<'h5'>
   footer?: p.Flex<'div'>
 }
 
@@ -212,6 +213,15 @@ function PlasmicJfe__RenderFunc(props: {
                 </React.Fragment>
               </h4>
 
+              <h5
+                data-plasmic-name={'h5'}
+                data-plasmic-override={overrides.h5}
+                className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5)}>
+                {
+                  'The Allegory of Agoraphobia NFT page is a digital art collection created by the talented artist Jesus Fernandez Escobar. This unique collection features a range of neo-impressionist artworks that are sure to captivate and inspire art enthusiasts and collectors alike.\n\nJesus Fernandez Escobar\'s Allegory of Agoraphobia collection is a testament to his artistic talent and his ability to create beautiful and thought-provoking works of art. \nThis particular piece is a commentary on the psychosis caused by the virus in social relations, and the resulting agoraphobia that people experience when attempting to return to a "normal" life. \n\nThrough the use of irony, the artist expresses how society\'s behavior has drastically changed during this crisis, with people going to extreme lengths to protect themselves while facing an uncertain future. This work highlights the difference between how individuals and the masses react to these issues, and invites viewers to contemplate the impact of the pandemic on society as a whole.'
+                }
+              </h5>
+
               <div className={classNames(projectcss.all, sty.freeBox__b593I)}>
                 <p.PlasmicLink
                   className={classNames(projectcss.all, projectcss.a, sty.link__rzNd)}
@@ -328,9 +338,10 @@ function PlasmicJfe__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ['root', 'header', 'h4', 'footer'],
+  root: ['root', 'header', 'h4', 'h5', 'footer'],
   header: ['header'],
   h4: ['h4'],
+  h5: ['h5'],
   footer: ['footer'],
 } as const
 type NodeNameType = keyof typeof PlasmicDescendants
@@ -339,6 +350,7 @@ type NodeDefaultElementType = {
   root: 'div'
   header: typeof Header
   h4: 'h4'
+  h5: 'h5'
   footer: 'div'
 }
 
@@ -394,6 +406,7 @@ export const PlasmicJfe = Object.assign(
     // Helper components rendering sub-elements
     header: makeNodeComponent('header'),
     h4: makeNodeComponent('h4'),
+    h5: makeNodeComponent('h5'),
     footer: makeNodeComponent('footer'),
 
     // Metadata about props expected for PlasmicJfe

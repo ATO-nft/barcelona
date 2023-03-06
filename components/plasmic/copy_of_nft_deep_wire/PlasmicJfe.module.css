@@ -127,6 +127,23 @@
   text-align: right;
   min-width: 0;
 }
+.h5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 859px;
+  padding-top: 81px;
+  padding-bottom: 0px;
+  color: #ffffff;
+  text-align: justify;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .h5 {
+    align-self: center;
+    text-align: center;
+  }
+}
 .freeBox__b593I {
   display: grid;
   position: relative;
